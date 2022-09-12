@@ -9,7 +9,7 @@ import { Container, Error } from './styles';
 interface Props extends TextInputProps {
     control: Control;
     name: string;
-    error?: Merge<FieldError, FieldErrorsImpl<DeepRequired<any>>>;
+    error?: any;
 }
 
 export function InputForm({
