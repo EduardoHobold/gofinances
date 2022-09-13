@@ -32,7 +32,7 @@ export function TransactionCard({ data }: Props) {
     return (
         <Container>
             <Title>{data.title}</Title>
-            <Amount >
+            <Amount type={data.type}>
                 {data.type === 'negative' && '- '}
                 {data.amount}
             </Amount>

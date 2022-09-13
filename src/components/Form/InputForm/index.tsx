@@ -1,6 +1,6 @@
 import React from 'react';
 import { TextInputProps } from 'react-native';
-import { Control, Controller, Merge,FieldError, FieldErrorsImpl, DeepRequired } from 'react-hook-form';
+import { Control, Controller } from 'react-hook-form';
 
 import { Input } from '../Input';
 
